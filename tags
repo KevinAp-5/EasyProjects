@@ -15,6 +15,10 @@
 !_TAG_KIND_DESCRIPTION!Ant	i,antfile	/antfiles/
 !_TAG_KIND_DESCRIPTION!Ant	p,project	/projects/
 !_TAG_KIND_DESCRIPTION!Ant	t,target	/targets/
+!_TAG_KIND_DESCRIPTION!Diff	d,deletedFile	/deleted files/
+!_TAG_KIND_DESCRIPTION!Diff	h,hunk	/hunks/
+!_TAG_KIND_DESCRIPTION!Diff	m,modifiedFile	/modified files/
+!_TAG_KIND_DESCRIPTION!Diff	n,newFile	/newly created files/
 !_TAG_KIND_DESCRIPTION!Java	a,annotation	/annotation declarations/
 !_TAG_KIND_DESCRIPTION!Java	c,class	/classes/
 !_TAG_KIND_DESCRIPTION!Java	e,enumConstant	/enum constants/
@@ -23,6 +27,14 @@
 !_TAG_KIND_DESCRIPTION!Java	i,interface	/interfaces/
 !_TAG_KIND_DESCRIPTION!Java	m,method	/methods/
 !_TAG_KIND_DESCRIPTION!Java	p,package	/packages/
+!_TAG_KIND_DESCRIPTION!Markdown	S,subsection	/level 2 sections/
+!_TAG_KIND_DESCRIPTION!Markdown	T,l4subsection	/level 4 sections/
+!_TAG_KIND_DESCRIPTION!Markdown	c,chapter	/chapters/
+!_TAG_KIND_DESCRIPTION!Markdown	h,hashtag	/hashtags/
+!_TAG_KIND_DESCRIPTION!Markdown	n,footnote	/footnotes/
+!_TAG_KIND_DESCRIPTION!Markdown	s,section	/sections/
+!_TAG_KIND_DESCRIPTION!Markdown	t,subsubsection	/level 3 sections/
+!_TAG_KIND_DESCRIPTION!Markdown	u,l5subsection	/level 5 sections/
 !_TAG_KIND_DESCRIPTION!Maven2	a,artifactId	/artifact identifiers/
 !_TAG_KIND_DESCRIPTION!Maven2	g,groupId	/group identifiers/
 !_TAG_KIND_DESCRIPTION!Maven2	p,property	/properties/
@@ -35,7 +47,9 @@
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
 !_TAG_OUTPUT_VERSION	0.0	/current.age/
 !_TAG_PARSER_VERSION!Ant	0.0	/current.age/
+!_TAG_PARSER_VERSION!Diff	0.0	/current.age/
 !_TAG_PARSER_VERSION!Java	0.0	/current.age/
+!_TAG_PARSER_VERSION!Markdown	1.1	/current.age/
 !_TAG_PARSER_VERSION!Maven2	0.0	/current.age/
 !_TAG_PARSER_VERSION!XML	0.0	/current.age/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
@@ -50,15 +64,17 @@
 !_TAG_ROLE_DESCRIPTION!Maven2!artifactId	parent	/parent/
 !_TAG_ROLE_DESCRIPTION!Maven2!groupId	dependency	/dependency/
 !_TAG_ROLE_DESCRIPTION!Maven2!groupId	parent	/parent/
+-16,23 +18,25	.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2024_20_33_[Changes]/shelved.patch	/^@@ -16,23 +18,25 @@$/;"	h	modifiedFile:a/.idea/workspace.xml
+-4,7 +4,9	.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2024_20_33_[Changes]/shelved.patch	/^@@ -4,7 +4,9 @@$/;"	h	modifiedFile:a/.idea/workspace.xml
 2cBxO0yoo3RpR69UMQZTu6o51tl	.idea/workspace.xml	/^  <component name="ProjectId" id="2cBxO0yoo3RpR69UMQZTu6o51tl" \/>$/;"	i
 316c2e26-cc09-4fbe-a357-b1e72fe006fd	.idea/workspace.xml	/^      <changelist id="316c2e26-cc09-4fbe-a357-b1e72fe006fd" name="Changes" comment="" \/>$/;"	i
-316c2e26-cc09-4fbe-a357-b1e72fe006fd	.idea/workspace.xml	/^    <list default="true" id="316c2e26-cc09-4fbe-a357-b1e72fe006fd" name="Changes" comment="Easy /;"	i
-Add	.idea/workspace.xml	/^    <ConfirmationsSetting value="2" id="Add" \/>$/;"	i
+316c2e26-cc09-4fbe-a357-b1e72fe006fd	.idea/workspace.xml	/^    <list default="true" id="316c2e26-cc09-4fbe-a357-b1e72fe006fd" name="Changes" comment="" \/>$/;"	i
 Default	.idea/workspace.xml	/^    <task active="true" id="Default" summary="Default task">$/;"	i
+EasyProjects	README.md	/^# EasyProjects$/;"	c
 EasyProjects	pom.xml	/^    <artifactId>EasyProjects<\/artifactId>$/;"	a	groupId:com.keven.easyprojects
-LOCAL-00001	.idea/workspace.xml	/^    <task id="LOCAL-00001" summary="Easy Projects created">$/;"	i
 Somar	src/main/java/Sum/Somar.java	/^public class Somar {$/;"	c
 Sum	src/main/java/Sum/Somar.java	/^package Sum;$/;"	p
+a/.idea/workspace.xml	.idea/shelf/Uncommitted_changes_before_Update_at_10_02_2024_20_33_[Changes]/shelved.patch	/^--- a\/.idea\/workspace.xml	(revision b350eaa21161a0945f9704b65a35e171c3e223a9)$/;"	m
 com.keven.easyprojects	pom.xml	/^    <groupId>com.keven.easyprojects<\/groupId>$/;"	g
 maven.compiler.source	pom.xml	/^        <maven.compiler.source>21<\/maven.compiler.source>$/;"	p
 maven.compiler.target	pom.xml	/^        <maven.compiler.target>21<\/maven.compiler.target>$/;"	p
